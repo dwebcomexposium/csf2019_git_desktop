@@ -1299,8 +1299,12 @@ body:not(.catalogue) .edito.edito-buttons .btn-primary:last-child { margin-right
 /* ------------------------------------------------------------ *\
 	Newsletter
 \* ------------------------------------------------------------ */
+.newsletter-form { opacity: 0; visibility: hidden;}
 
 .newsletter-form { position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 1000; background: rgba(0,0,0,.7); }
+
+body.show-newsletter .newsletter-form { opacity: 1; visibility: visible; }
+
 .newsletter-form .inside { display: block; padding: 0; }
 
 .nf-main-content { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); display: inline-block; width: 100%; max-width: 545px; padding: 45px 102px 82px 49px; background: #f3f7fc; line-height: 1.93; color: #231f20; letter-spacing: .04em; }
