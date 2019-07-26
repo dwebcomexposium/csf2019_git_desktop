@@ -2235,6 +2235,16 @@ ul.style3 strong { display: block; margin-bottom: 9px; font-size: 22px; line-hei
 	.exposer .carrousel-anim-home .gla-item > a:hover .gla-btn-read-more { transform: translateX(0); }
 }
 
+
+/*sticky header exposez*/
+.exposer .quicklinks-stickyheader .ql-item:first-child .btn-primary span:before { width: 17px; height: 20px; background-image: url(img/star.svg); opacity: .3; transition: opacity .3s; }
+.exposer .quicklinks-stickyheader .ql-item:nth-child(2) .btn-primary span:before { width: 15px; height: 20px; background-image: url(img/calculator.svg);  opacity: .3; transition: opacity .3s;}
+.exposer .quicklinks-stickyheader .ql-item:nth-child(3) .btn-primary span:before { width: 27px; height: 20px; background-image: url(img/people.svg);  opacity: .3; transition: opacity .3s;}
+.exposer .quicklinks-stickyheader .ql-item:last-child .btn-primary:hover span:before { background-image: url(img/shop-white.svg); }
+.exposer .quicklinks-stickyheader .ql-item:last-child .btn-primary span:before { top: calc(50% - 2px); width: 18px; height: 20px; background-image: url(img/shop-white.svg); transition: background .4s; }
+.exposer .quicklinks-stickyheader .ql-item:last-child .btn-primary:hover span:before { background-image: url(img/shop.svg); }
+.exposer .quicklinks-stickyheader .ql-item .btn-primary:hover span:before {opacity: 1; }
+
 /* ------------------------------------------------------------ *\
 	Article Single
 \* ------------------------------------------------------------ */
@@ -2322,19 +2332,11 @@ body.partner .slider-item .pg-item-illust {height: 100px; line-height: 100px;  t
 \* ------------------------------------------------------------ */
 
 body.catalogue { background : transparent; background: #fff; font-family: 'Rubik', sans-serif; font-size: 13px; line-height: 1.85; color: #231f20; font-weight: 300; }	
-
 body.catalogue #zone3 { position: relative; right: 0; top:0; z-index: 999; float: right;  margin-top: 0; display: none; }
 body.catalogue #zone3.top { top: 0px; }
-
 body.catalogue [class^='ico'] { font-size: 2rem; }
 
-
 body.catalogue .edito .mod-catal .inside {padding: 0 0 30px 0;}
-
-
-
-
-
 body.catalogue .mod-catal h1 { font-weight: 300!important; padding-bottom: 50px!important; }
 
 
