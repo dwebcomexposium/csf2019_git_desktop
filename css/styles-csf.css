@@ -1362,6 +1362,8 @@
 	\* ------------------------------------------------------------ */
 	
 	.page-circle { position: absolute; top: 240px; right: -187px; width: 960px; height: 960px; border-radius: 100%; background: #eaf0f8; }
+	body.exposer .page-circle { background: #f2efeb; }
+	
 	
 	@media (max-width: 1024px) {
 		.page-circle { width: 700px; height: 700px; }
