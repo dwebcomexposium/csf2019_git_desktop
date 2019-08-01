@@ -1921,9 +1921,9 @@ ul.style3 strong { display: block; margin-bottom: 9px; font-size: 22px; line-hei
 .exposer-link-objectifs .ql-item .btn-primary { min-height: 230px; height: 100%; padding: 146px 25px 35px; border-radius: 0; background: #f3f7fc; font-size: 14px; line-height: 1.15; color: #231f20; font-weight: 300; letter-spacing: .1em; text-transform: uppercase; transition: all .3s; }
 .exposer-link-objectifs .ql-item .btn-primary:before { top: calc(50% - 80px); left: 50%; transform: translateX(-50%); border: 0; background-size: 100%; background-position: center; background-repeat: no-repeat; opacity: 1; visibility: visible; transition: all .3s; }
 .exposer-link-objectifs .ql-item .btn-primary:after { content: ''; position: absolute; top: 110px; left: 50%; transform: translateX(-50%); width: 24px; height: 4px; border-radius: 10px; background: #c3d8ef; transition: top .3s; }
-.exposer-link-objectifs .ql-item:hover { padding-top: 0; padding-bottom: 0; }
-.exposer-link-objectifs .ql-item:hover .btn-primary { padding-top: 55px; background: #fff; box-shadow: 0 0 50px rgba(35,31,32,.1); }
-.exposer-link-objectifs .ql-item:hover .btn-primary:before { top: calc(50% + 25px); }
+/*.exposer-link-objectifs .ql-item:hover { padding-top: 0; padding-bottom: 0; }*/
+.exposer-link-objectifs .ql-item:hover .btn-primary { /*padding-top: 55px; */background: #fff; box-shadow: 0 0 50px rgba(35,31,32,.1); }
+/*.exposer-link-objectifs .ql-item:hover .btn-primary:before { top: calc(50% + 25px); }*/
 .exposer-link-objectifs .ql-item:hover .btn-primary:after { top: 119px; }
 
 .exposer-link-objectifs .ql-item .btn-primary:focus:before, 
@@ -1933,7 +1933,7 @@ ul.style3 strong { display: block; margin-bottom: 9px; font-size: 22px; line-hei
 .exposer-link-objectifs .ql-item:first-child .btn-primary:before { width: 50px; height: 48px; background-image: url(img/growth.svg); }
 .exposer-link-objectifs .ql-item:nth-child(2) .btn-primary:before { width: 48px; height: 55px; background-image: url(img/people-alt.svg); }
 .exposer-link-objectifs .ql-item:nth-child(3) .btn-primary:before { width: 50px; height: 58px; background-image: url(img/rocket.svg); }
-.exposer-link-objectifs .ql-item:nth-child(4) .btn-primary:before { width: 55px; height: 37px; background-image: url(img/call.svg); }
+.exposer-link-objectifs .ql-item:nth-child(4) .btn-primary:before { width: 55px; height: 37px; background-image: url(img/call.svg); top: 42px; }
 
 @media (max-width: 1024px) {
 	.exposer-link-objectifs { padding: 45px 0; }
@@ -2880,4 +2880,6 @@ body.catalogue .mod-catal .catal-ex-item-buttons .btn-primary { background : #23
 	.resultat-recherche-home .catal-ex-item { width: 33.33%; }
 	.resultat-recherche-home .catal-ex-item-stand { max-width: 90px; }
 }
+
+
 .gla-item-author {display: none;}
