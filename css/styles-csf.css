@@ -2973,3 +2973,5 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 
 
 .gla-item-author {display: none;}
+
+.h-video { display: flex; padding: 50px 50px; background: #000; justify-content: center; max-width: 920px; margin: 10px auto; position: relative; border-radius: 30px; }
