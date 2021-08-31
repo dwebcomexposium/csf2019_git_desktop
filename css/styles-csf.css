@@ -2995,3 +2995,7 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 #catalog-v2 [data-type="sector"] {
    display: none !important;;
 }
+/*fond saumon*/
+#catalog-v2 .bgTint{
+    background-color: #EEA288 !important;
+}
