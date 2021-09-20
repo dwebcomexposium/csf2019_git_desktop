@@ -2844,8 +2844,9 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 #tooltip-title {display: none; }
 
 
-.mod-catal.catal-nav-affix, .mod-catal.catal-nav-ex {display: none; }
-
+/*Navigation calendrier à ne pas masquer - MAJ 20/09/2021
+/*.mod-catal.catal-nav-affix, .mod-catal.catal-nav-ex {display: none; }*/
+*/
 
 .page-events dialog {
 
