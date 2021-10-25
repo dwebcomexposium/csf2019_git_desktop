@@ -2986,7 +2986,7 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 .h-video { display: flex; padding: 50px 50px; background: #000; justify-content: center; max-width: 920px; margin: 10px auto; position: relative; border-radius: 30px; }
 
 
-
+.site-banner .main-navigation { margin-top: -25px; }
 
 /*.h-video:after { content: ''; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); background: url(images/arrow-down-big.png) no-repeat 0 0; width: 54px; height: 15px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }  */   
 
@@ -3000,3 +3000,5 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 #catalog-v2 .bgTint{
     background-color: #EEA288 !important;
 }
+
+
