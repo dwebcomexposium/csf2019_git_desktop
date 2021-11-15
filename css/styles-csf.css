@@ -340,7 +340,7 @@ header .btn-primary span:before { width: 12px; height: 18px; background-image: u
 
 
 @media (max-width: 1450px) {
-	.top-header-link { left: 270px; transform: translateX(0) !important; }
+	.top-header-link { left: 60px; transform: translateX(0) !important; }
 }
 
 @media (max-width: 1024px) {
@@ -3014,6 +3014,7 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 
 .resp-container {position: relative; overflow: hidden; width: 88vw; left: calc(-44vw + 50%); padding-top: 80.25%; background: #fff; border-radius: 30px; box-shadow: 0 0 29px rgba(35,31,32,.15); margin-bottom: 3Opx; } 
 .resp-iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
 
 
 /*Catalogue NEW*/
