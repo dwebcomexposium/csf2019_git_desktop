@@ -1,5 +1,4 @@
 
-
 /* ------------------------------------------------------------ *\
 	Reset
 \* ------------------------------------------------------------ */
@@ -328,7 +327,8 @@ body.show-newsletter { overflow: hidden; }
 
 
 
-header .btn-primary.map  { position: fixed; top:0 ; display: block; background: #fff; color: #424242; margin-top: 3px;}
+
+header .btn-primary.map {position: fixed; top: 0; display: block; background: none; color: #424242; margin-top: 3px; left: 60px; }
 header .btn-primary.map:hover:before  { display: none; }
 
 header .btn-primary.map span:before { content: ''; position: absolute; top: 50%; left: 0px; transform: translateY(-50%); background-position: center; background-repeat: no-repeat; background-size: 100%; }
