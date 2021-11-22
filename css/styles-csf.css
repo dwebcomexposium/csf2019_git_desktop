@@ -3017,7 +3017,10 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 
 
 
-/*Catalogue NEW*/
+/* ------------------------------------------------------------ *\
+	Catalogue New
+\* ------------------------------------------------------------ */
+
 /* Cacher filtre produits Secteur d'expo*/
 #catalog-v2 [data-type="sector"] {
    display: none !important;;
@@ -3026,3 +3029,8 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 #catalog-v2 .bgTint{
     background-color: #EEA288 !important;
 }
+
+/*cacher encart présent sur */
+
+#catalog-v2.catalog-scope div.container div.Container-inner section.CatalogAppointmentBar {
+    display: none !important;}
