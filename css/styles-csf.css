@@ -3038,3 +3038,9 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 .quicklinks-principaux .ql-item:nth-child(2) .btn-primary:after {
     background-image: url(images/shop-blue.svg);
 }
+.quicklinks-principaux .ql-item:first-child .btn-primary:after {
+    background-image: url(images/clock-blue.svg);
+}
+.quicklinks-principaux .ql-item:nth-child(3) .btn-primary:after {
+    background-image: url(images/ticket-blue.svg);
+}
