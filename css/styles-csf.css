@@ -3034,3 +3034,7 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 
 #catalog-v2.catalog-scope div.container div.Container-inner section.CatalogAppointmentBar {
     display: none !important;}
+
+.quicklinks-principaux .ql-item:nth-child(2) .btn-primary:after {
+    background-image: url(images/shop-blue.svg);
+}
