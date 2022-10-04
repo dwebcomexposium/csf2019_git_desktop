@@ -3044,3 +3044,7 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 .quicklinks-principaux .ql-item:nth-child(3) .btn-primary:after {
     background-image: url(images/ticket-blue.svg);
 }
+
+.article_list partenaires .pg-item-group {
+    text-align: center;
+}
