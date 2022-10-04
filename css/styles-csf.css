@@ -3045,6 +3045,6 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
     background-image: url(images/ticket-blue.svg);
 }
 
-.article_list partenaires .pg-item-group {
+.partenaires .pg-item-group {
     text-align: center;
 }
