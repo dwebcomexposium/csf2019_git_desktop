@@ -3048,6 +3048,6 @@ body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { background : #
 .partenaires .pg-item-group {
     text-align: center;
 }
-.partenaires span.pg-item-illust img, .partenaires span.pg-item-illust span {
+.partenaires span.pg-item-illust img, .partenaires span.pg-item-title {
     margin-left: 0 !important;
 }
